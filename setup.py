@@ -22,7 +22,6 @@ setup(
     author_email='fotinakis@google.com',
     description='Filesystem abstraction for App Engine apps',
     packages=['titan'],
-    namespace_packages=['titan'],
     zip_safe=False,
     platforms='any',
     classifiers=[
@@ -30,7 +29,6 @@ setup(
         'Environment :: Web Environment',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: Apache Software License',
-        'Operating System :: OS Independent',
         'Programming Language :: Python',
         'Topic :: Software Development :: Libraries :: Python Modules'
     ]
