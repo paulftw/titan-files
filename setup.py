@@ -21,7 +21,6 @@ setup(
     author='Mike Fotinakis',
     author_email='fotinakis@google.com',
     description='Filesystem abstraction for App Engine apps',
-    package_dir={'': 'titan'},
     packages=['titan', 'titan.common', 'titan.files', 'titan.services',
               'titan.stats', 'titan.utils'],
     include_package_data=True,
